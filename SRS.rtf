@@ -1,0 +1,147 @@
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Calibri;}{\f1\fnil\fcharset2 Symbol;}}
+{\*\listtable 
+{\list\listhybrid
+{\listlevel\levelnfc23\leveljc0\levelstartat1{\leveltext\'01\'B7;}{\levelnumbers;}\f1\jclisttab\tx0}
+{\listlevel\levelnfc0\leveljc0\levelstartat1{\leveltext\'02\'01.;}{\levelnumbers\'01;}\jclisttab\tx0}
+{\listlevel\levelnfc4\leveljc0\levelstartat1{\leveltext\'02\'02.;}{\levelnumbers\'01;}\jclisttab\tx0}
+{\listlevel\levelnfc3\leveljc0\levelstartat1{\leveltext\'02\'03.;}{\levelnumbers\'01;}\jclisttab\tx0}
+{\listlevel\levelnfc2\leveljc0\levelstartat1{\leveltext\'02\'04.;}{\levelnumbers\'01;}\jclisttab\tx0}
+{\listlevel\levelnfc1\leveljc0\levelstartat1{\leveltext\'02\'05.;}{\levelnumbers\'01;}\jclisttab\tx0}
+{\listlevel\levelnfc0\leveljc0\levelstartat1{\leveltext\'02\'06.;}{\levelnumbers\'01;}\jclisttab\tx0}
+{\listlevel\levelnfc4\leveljc0\levelstartat1{\leveltext\'02\'07.;}{\levelnumbers\'01;}\jclisttab\tx0}
+{\listlevel\levelnfc23\leveljc1\levelstartat1{\leveltext\'01\'B7;}{\levelnumbers;}\f1\jclisttab\tx0}\listid1 }}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}}
+{\*\generator Riched20 10.0.19041}\viewkind4\uc1 
+\pard\sa200\sl276\slmult1\f0\fs22\lang9\par
+
+\pard\sa200\sl276\slmult1\qc\b\fs36\tab\tab\ul Cab Management Service\par
+\ulnone\b0\fs22\par
+
+\pard\sa200\sl276\slmult1\ul\b\fs36 1. Introduction\par
+
+\pard\sa200\sl276\slmult1\qj\ulnone\b0\fs22  \fs28 Transport facility is a matter of headache for those people who do not have any personal transport c. On occasions like Wedding, Vacation, house shifting, and on many other situations they feel the necessity of a vehicle to sort out theproblems. So if it is possible to design or develop a web based application for availing transport whenever and wherever possible, then it will be beneficial for both renter andtransport provider. Now a days, by some clicks only, we can get whatever you want at home.We already know about the online shopping, e-banking etc. Similarly, The Cab management System is the online facility to book cars online within few clicks only. Some people can not afford to have a car, for those people this system becomes very helpful. This system includes various cars, as per the customer order and comfort, it place the order and deliver the car as per the location within the area. For travelling a long distance, booking can be done via internetservice only.\par
+
+\pard\sa200\sl276\slmult1\b\fs32 (i) Purpose of this document\b0\fs28\par
+The purpose of this SRS document is to specify software requirements of the Online TaxiBooking. It is intended to be a complete specification of what functionality the systemprovides. The main purpose of the system is to automate the process of booking a taxionline. Specific design and implementation details will be specified in a future document.\fs22\par
+\par
+\b\fs32 (ii) Scope of this document\par
+\b0\fs28 This project\rquote s aim is to automate the system, calculating the fare, collecting fare, collectingall necessary information of the client and then serve the client. The data used by thesystem is stored in a database that will be the centre of all information held clients andemployees and the base for the remainder of the process after the initial application hasbeen made. This enables things to be simplified and considerably quickened, making thejobs of the people involved easier. It supports the current process but centralizes it andmakes it possible for decisions to be made earlier and easier way.\par
+\ul\b\fs40 3. Functional Requirements\par
+\ulnone\fs28 Actors:\par
+
+\pard 
+{\pntext\f0 i.\tab}{\*\pn\pnlvlbody\pnf0\pnindent0\pnstart1\pnlcrm{\pntxta.}}
+\fi-360\li720\sa200\sl276\slmult1\b0 Users\par
+{\pntext\f0 ii.\tab}Drivers\par
+{\pntext\f0 iii.\tab}Admin\par
+
+\pard\sa200\sl276\slmult1\b\fs36 User \ul\b0\fs28 :\par
+
+\pard\ri262\sa200\sl276\slmult1\ulnone\fs36  1.Registration page:\ul\fs22\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\ri262\sa200\sl276\slmult1\ulnone\fs28 A text box should be provided for entering te first name with a limit if 50 characters.\ul\par
+{\pntext\f1\'B7\tab}\ulnone A text box should be provided for entering the last name with a limit of 20 characters.\ul\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1\qj\ulnone A text box should be provided for user id as input , if the entered data is not an email,it should show an error message 'enter valid email id'.\ul\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\ri262\sa200\sl276\slmult1\ulnone A text box for entering the mobile number which has an input type numericals only with a limit of 10 characters .[Mondatory]\par
+{\pntext\f1\'B7\tab}A text box for entering the password which has an input of alphanumeric and symbols of max 8 characters.[mandatory]\ul\par
+{\pntext\f1\'B7\tab}\ulnone A submit button for validating email id and password , if email id is already exists alert the user to change the email id , if the password is alresy exists alert the user to change the password.\ul\par
+
+\pard\sa200\sl276\slmult1\ulnone\fs36 2.Login page:\ul\fs24\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1\qj\ulnone\fs28 A text box should be provided for user id as input , if the entered data is not an email,it should show an error message 'enter valid email id'.\ul\par
+{\pntext\f1\'B7\tab}\ulnone A text field for collecting user password which has an input of alphanumeric and symbols , with a limit of 8 letters.\ul\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\ri262\sa200\sl276\slmult1\qj\ulnone Submit button which validate username and password , if email is not matching , alert user that email is not corresct , if the password is not matching alert the user that the password is incorrect.\ul\par
+{\pntext\f1\'B7\tab}\ulnone A button should be there to navigating to Forgot password page.\ul\par
+{\pntext\f1\'B7\tab}\ulnone A button for navigating to Signup page.\fs36\par
+
+\pard\ri262\sa200\sl276\slmult1\fs40\par
+3.Cab search facility:\par
+\fs28 A search bar should be provided for searching the available cars in which the user can add the pickup and destination .The available cabs should be displayed showing the fare,drop off time,reviews.if there is no cars available \par
+\par
+\par
+\par
+\par
+\fs40 4.Book cab:\ul\fs32\par
+\ulnone\fs28 It should show the information about the \par
+
+\pard 
+{\listtext\f0\u10625?\tab}\ls1\fi-360\li720\ri262\sa200\sl276\slmult1 Driver name\ul\par
+{\listtext\f0 1\tab}\ulnone Cab route\ul\par
+{\listtext\f0 2\tab}\ulnone Cab number\ul\par
+{\listtext\f0 3\tab}\ulnone Cab image\ul\par
+{\listtext\f0 4\tab}\ulnone Cab fare\ul\par
+
+\pard 
+{\listtext\f0\u10625?\tab}\ls1\ilvl8\fi-360\li720\ri262\sa200\sl276\slmult1\ulnone Driver review\ul\par
+
+\pard\ri262\sa200\sl276\slmult1\ulnone A confirmation button which on tapping will store the above information for temporary and will navigate to payment page.\par
+\fs40 5.Payment page:\fs32\par
+\fs28 It should show the payment options [debit/credit card,gpay,paytm,online payment,cash] from which the user can select the payement method .Ensure the user can select only one method at a time.\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\ri262\sa200\sl276\slmult1 In debit/credit card method ,it should redirects to a page where the user can enter the card number[only number with a limit of 16 characters.],cvv[only numericals with a limit of 3 characters],expiry date[mm/yy format].\par
+{\pntext\f1\'B7\tab}After entering the details ,user should get an OTP to the users mobile number for verification and OTP should be verified.\par
+{\pntext\f1\'B7\tab}There should be a resend option for resending the OTP after 10 seconds.\par
+
+\pard\ri262\sa200\sl276\slmult1\fs36 6.Confirmation page:\ul\fs32\par
+\ulnone\fs28 A confirmation page that shows the driver details[photo,name,mobile number,vehicle number,cab photo],fare.It should share the current location of the driver.\par
+\fs36 7.Feedback page:\b\par
+\b0\fs28 After reaching the destination the user should be provided with a feedback form with star ratings.\par
+\ul\b\fs36 Cab master requirements:\par
+\ulnone\b0 1.Registration page:\ul\fs22\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\ri262\sa200\sl276\slmult1\ulnone\fs28 A text box should be provided for entering te first name with a limit if 50 characters.\ul\par
+{\pntext\f1\'B7\tab}\ulnone A text box should be provided for entering the last name with a limit of 20 characters.\ul\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1\qj\ulnone A text box should be provided for user id as input , if the entered data is not an email,it should show an error message 'enter valid email id'.\ul\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\ri262\sa200\sl276\slmult1\ulnone A text box for entering the mobile number which has an input type numericals only with a limit of 10 characters with a + country code .[Mondatory]\par
+{\pntext\f1\'B7\tab}A text box for entering the password which has an input of alphanumeric and symbols of max 8 characters.[mandatory]\ul\par
+{\pntext\f1\'B7\tab}\ulnone A text box for re enter the password which has an input of alphanumeric and symbols of max 8 characters for confirmation , if there is a mismatch it should alert the user that ' password mismatch'.[mandatory]\ul\par
+{\pntext\f1\'B7\tab}\ulnone A submit button for validating email id and password , if email id is already exists alert the user to change the email id , if the password is alresy exists alert the user to change the password.\ul\par
+
+\pard\sa200\sl276\slmult1\ulnone\fs36 2.Login page:\ul\fs24\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1\qj\ulnone\fs28 A text box should be provided for user id as input , if the entered data is not an email,it should show an error message 'enter valid email id'.\ul\par
+{\pntext\f1\'B7\tab}\ulnone A text field for collecting user password which has an input of alphanumeric and symbols , with a limit of 8 letters.\ul\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\ri262\sa200\sl276\slmult1\qj\ulnone Submit button which validate username and password , if email is not matching , alert user that email is not corresct , if the password is not matching alert the user that the password is incorrect.\ul\par
+{\pntext\f1\'B7\tab}\ulnone A button should be there to navigating to Forgot password page.\ul\par
+{\pntext\f1\'B7\tab}\ulnone A button for navigating to Signup page.\fs36\par
+
+\pard\ri262\sa200\sl276\slmult1 Booking page:\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\ri262\sa200\sl276\slmult1\fs28 The cab master should receive the notification while the user confirm the booking ( Receive notification via email id provided )\ul\b\par
+{\pntext\f1\'B7\tab}\ulnone\b0 The cab master should share the journey details ( time that will take to reach the pick up location ) to the user.\ul\b\par
+{\pntext\f1\'B7\tab}\ulnone\b0 The cab master should verify the otp from user before start of the journey.\ul\b\par
+
+\pard\ri262\sa200\sl276\slmult1\fs36 Admin requirements:\par
+\ulnone\b0 1.Login page:\fs28\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1\qj A text box should be provided for user id as input , if the entered data is not an email,it should show an error message 'enter valid email id'.\ul\par
+{\pntext\f1\'B7\tab}\ulnone A text field for collecting user password which has an input of alphanumeric and symbols , with a limit of 8 letters.\ul\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\ri262\sa200\sl276\slmult1\qj\ulnone Submit button which validate username and password , if email is not matching , alert user that email is not corresct , if the password is not matching alert the user that the password is incorrect.\ul\par
+{\pntext\f1\'B7\tab}\ulnone User should be able to login with two authentification such as captha and a picture.\ul\par
+{\pntext\f1\'B7\tab}\ulnone A button should be there to navigating to Forgot password page.\ul\par
+{\pntext\f1\'B7\tab}\ulnone A button for navigating to Signup page.\fs36\par
+
+\pard\ri262\sa200\sl276\slmult1\qj 2.Users information page:\par
+\fs28 Admin can see the details of the user[name,location booking timing],booking details of the cab and updation in the cab services.\par
+\fs36 3.Driver information page:\par
+\fs28 Admin can see the details of the driver[name,location,vehicle number,type of vehicle,mobile number].\par
+\fs36 4.view booking details:\par
+\fs28 Admin should be able to see the number of bookings in daily,weekly, monthly manner and be able to see the feedback about the drivers.\fs36\par
+\fs28\par
+\ul\par
+\par
+
+\pard\ri262\sa200\sl276\slmult1\par
+\b\fs32\par
+\par
+\par
+\b0\fs24\par
+}
+ 
